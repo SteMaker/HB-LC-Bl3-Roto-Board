@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name supply)(type Legacy)(uri ${KIPRJMOD}/libraries/am1s.lib)(options "")(descr ""))
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/libraries/mysensors_arduino.lib)(options "")(descr ""))
+  (lib (name relay)(type Legacy)(uri ${KIPRJMOD}/libraries/finder4061.lib)(options "")(descr ""))
+  (lib (name radio)(type Legacy)(uri ${KIPRJMOD}/libraries/cc1101-module.lib)(options "")(descr ""))
+  (lib (name wago)(type Legacy)(uri ${KIPRJMOD}/libraries/wago-p-250.lib)(options "")(descr ""))
+)
