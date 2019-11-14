@@ -112,31 +112,23 @@ $EndComp
 $Comp
 L power:+3.3V #PWR07
 U 1 1 5C85366D
-P 7450 900
-F 0 "#PWR07" H 7450 750 50  0001 C CNN
-F 1 "+3.3V" H 7465 1073 50  0000 C CNN
-F 2 "" H 7450 900 50  0001 C CNN
-F 3 "" H 7450 900 50  0001 C CNN
-	1    7450 900 
+P 7450 1025
+F 0 "#PWR07" H 7450 875 50  0001 C CNN
+F 1 "+3.3V" H 7465 1198 50  0000 C CNN
+F 2 "" H 7450 1025 50  0001 C CNN
+F 3 "" H 7450 1025 50  0001 C CNN
+	1    7450 1025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 2150 4750 2150
-Wire Wire Line
-	3950 2250 4850 2250
-Wire Wire Line
-	3950 2350 4950 2350
-Wire Wire Line
-	5050 1150 3950 1150
 $Comp
 L power:GND #PWR06
 U 1 1 5C8566FC
-P 5600 1800
-F 0 "#PWR06" H 5600 1550 50  0001 C CNN
-F 1 "GND" V 5605 1672 50  0000 R CNN
-F 2 "" H 5600 1800 50  0001 C CNN
-F 3 "" H 5600 1800 50  0001 C CNN
-	1    5600 1800
+P 4900 1800
+F 0 "#PWR06" H 4900 1550 50  0001 C CNN
+F 1 "GND" V 4905 1672 50  0000 R CNN
+F 2 "" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+	1    4900 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -144,71 +136,49 @@ L Device:C C4
 U 1 1 5C868F8E
 P 1750 1150
 F 0 "C4" H 1865 1196 50  0000 L CNN
-F 1 "100n" H 1865 1105 50  0000 L CNN
+F 1 "1u" H 1865 1105 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1788 1000 50  0001 C CNN
 F 3 "~" H 1750 1150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 1750 1150 50  0001 C CNN "footprint"
+F 4 "MKS02-63 100N" H 1750 1150 50  0001 C CNN "reichelt"
 	1    1750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5C8690C6
-P 1450 1150
-F 0 "C3" H 1565 1196 50  0000 L CNN
-F 1 "100n" H 1565 1105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1488 1000 50  0001 C CNN
-F 3 "~" H 1450 1150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 1450 1150 50  0001 C CNN "footprint"
-	1    1450 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 950  1750 950 
 Wire Wire Line
-	1150 950  1150 900 
-Wire Wire Line
 	1750 1000 1750 950 
-Connection ~ 1750 950 
 $Comp
 L power:GND #PWR09
 U 1 1 5C86CE93
-P 1600 1400
-F 0 "#PWR09" H 1600 1150 50  0001 C CNN
-F 1 "GND" H 1605 1227 50  0000 C CNN
-F 2 "" H 1600 1400 50  0001 C CNN
-F 3 "" H 1600 1400 50  0001 C CNN
-	1    1600 1400
+P 1750 1350
+F 0 "#PWR09" H 1750 1100 50  0001 C CNN
+F 1 "GND" H 1755 1177 50  0000 C CNN
+F 2 "" H 1750 1350 50  0001 C CNN
+F 3 "" H 1750 1350 50  0001 C CNN
+	1    1750 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 1300 1750 1350
-Wire Wire Line
-	1750 1350 1600 1350
-Wire Wire Line
-	1600 1400 1600 1350
 $Comp
 L Device:C C5
 U 1 1 5C86F0B1
 P 7250 1200
 F 0 "C5" V 7200 1100 50  0000 C CNN
-F 1 "100n" V 7300 1050 50  0000 C CNN
+F 1 "1u" V 7300 1050 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7288 1050 50  0001 C CNN
 F 3 "~" H 7250 1200 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" V 7250 1200 50  0001 C CNN "footprint"
-F 5 "Nein" V 7250 1200 50  0001 C CNN "Bestellen"
+F 4 "MKS02-63 100N" V 7250 1200 50  0001 C CNN "reichelt"
 	1    7250 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5C86F143
-P 7050 900
-F 0 "#PWR010" H 7050 650 50  0001 C CNN
-F 1 "GND" V 7055 772 50  0000 R CNN
-F 2 "" H 7050 900 50  0001 C CNN
-F 3 "" H 7050 900 50  0001 C CNN
-	1    7050 900 
+P 7050 1025
+F 0 "#PWR010" H 7050 775 50  0001 C CNN
+F 1 "GND" V 7055 897 50  0000 R CNN
+F 2 "" H 7050 1025 50  0001 C CNN
+F 3 "" H 7050 1025 50  0001 C CNN
+	1    7050 1025
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -223,19 +193,17 @@ F 4 "footprint, Bohrungen ok" H 2950 2050 50  0001 C CNN "footprint"
 	1    2950 2050
 	1    0    0    -1  
 $EndComp
-Text Notes 5550 1650 0    50   ~ 0
+Text Notes 4850 1650 0    50   ~ 0
 config-btn
 $Comp
 L Transistor_BJT:BC337 Q1
 U 1 1 5C9AADFE
 P 4950 4450
 F 0 "Q1" V 5186 4450 50  0000 C CNN
-F 1 "BC817" V 5277 4450 50  0000 C CNN
+F 1 "BC337" V 5277 4450 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5150 4375 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4950 4450 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 4950 4450 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 4950 4450 50  0001 C CNN "Bestellen"
-F 6 "RND BC337" V 4950 4450 50  0001 C CNN "reichelt"
+F 4 "RND BC337" V 4950 4450 50  0001 C CNN "reichelt"
 	1    4950 4450
 	0    1    1    0   
 $EndComp
@@ -258,8 +226,7 @@ F 0 "D1" H 5250 2784 50  0000 C CNN
 F 1 "1N4148" H 5250 2875 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 5250 2825 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5250 3000 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 5250 3000 50  0001 C CNN "footprint"
-F 5 "Nein" H 5250 3000 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 5250 3000 50  0001 C CNN "reichelt"
 	1    5250 3000
 	0    1    1    0   
 $EndComp
@@ -314,11 +281,10 @@ L Device:R R5
 U 1 1 5C9CCEEC
 P 7400 5400
 F 0 "R5" H 7330 5354 50  0000 R CNN
-F 1 "10k" H 7330 5445 50  0000 R CNN
+F 1 "2k4" H 7330 5445 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7330 5400 50  0001 C CNN
 F 3 "~" H 7400 5400 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 7400 5400 50  0001 C CNN "footprint"
-F 5 "Nein" H 7400 5400 50  0001 C CNN "Bestellen"
+F 4 "1/4W 2,4k" H 7400 5400 50  0001 C CNN "reichelt"
 	1    7400 5400
 	0    -1   -1   0   
 $EndComp
@@ -337,19 +303,6 @@ Wire Wire Line
 	9100 5550 9100 5750
 Wire Wire Line
 	9100 5750 8850 5750
-$Comp
-L Diode:1N4148 D4
-U 1 1 5C9CCEFA
-P 8450 5250
-F 0 "D4" H 8450 5034 50  0000 C CNN
-F 1 "1N4148" H 8450 5125 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8450 5075 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8450 5250 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8450 5250 50  0001 C CNN "footprint"
-F 5 "Nein" H 8450 5250 50  0001 C CNN "Bestellen"
-	1    8450 5250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8600 5250 8850 5250
 Wire Wire Line
@@ -386,8 +339,6 @@ Wire Wire Line
 	7400 5750 7300 5750
 Wire Wire Line
 	7300 5750 7300 5800
-Text Notes 6800 6450 0    50   ~ 0
-Basiswiderstand errechnet für 27mA Spulenstrom, 3.3V an der Basis eines BC337
 $Comp
 L relay:FINDER-40.61 RL2
 U 1 1 5C9D05E0
@@ -407,8 +358,7 @@ F 0 "Q3" V 5536 5550 50  0000 C CNN
 F 1 "BC337" V 5627 5550 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5500 5475 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 5300 5550 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 5300 5550 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 5300 5550 50  0001 C CNN "Bestellen"
+F 4 "RND BC337" V 5300 5550 50  0001 C CNN "reichelt"
 	1    5300 5550
 	0    1    1    0   
 $EndComp
@@ -431,8 +381,7 @@ F 0 "D3" H 6050 4934 50  0000 C CNN
 F 1 "1N4148" H 6050 5025 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 6050 4975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6050 5150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 6050 5150 50  0001 C CNN "footprint"
-F 5 "Nein" H 6050 5150 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 6050 5150 50  0001 C CNN "reichelt"
 	1    6050 5150
 	-1   0    0    1   
 $EndComp
@@ -441,11 +390,10 @@ L Device:R R4
 U 1 1 5C9D05FB
 P 5050 5300
 F 0 "R4" H 4980 5254 50  0000 R CNN
-F 1 "10k" H 4980 5345 50  0000 R CNN
+F 1 "2k4" H 4980 5345 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4980 5300 50  0001 C CNN
 F 3 "~" H 5050 5300 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 5050 5300 50  0001 C CNN "footprint"
-F 5 "Nein" H 5050 5300 50  0001 C CNN "Bestellen"
+F 4 "1/4W 2,4k" H 5050 5300 50  0001 C CNN "reichelt"
 	1    5050 5300
 	0    -1   -1   0   
 $EndComp
@@ -502,25 +450,23 @@ Wire Wire Line
 	3950 2750 4300 2750
 Wire Wire Line
 	3950 2850 4300 2850
-Text Label 4050 2550 0    50   ~ 0
+Text Label 4300 2550 2    50   ~ 0
 M1_DIR
-Text Label 4050 2650 0    50   ~ 0
+Text Label 4300 2650 2    50   ~ 0
 M1_EN
-Text Label 4050 2750 0    50   ~ 0
+Text Label 4300 2750 2    50   ~ 0
 M2_EN
-Text Label 4050 2850 0    50   ~ 0
+Text Label 4300 2850 2    50   ~ 0
 M2_DIR
-Text Label 4050 2150 0    50   ~ 0
+Text Label 4300 2150 2    50   ~ 0
 RF_MOSI
-Text Label 4050 2250 0    50   ~ 0
+Text Label 4300 2250 2    50   ~ 0
 RF_MISO
-Text Label 4050 2350 0    50   ~ 0
+Text Label 4300 2350 2    50   ~ 0
 RF_SCLK
-Text Label 4050 1150 0    50   ~ 0
+Text Label 4300 1150 2    50   ~ 0
 RF_INT
-Wire Wire Line
-	3950 1950 4500 1950
-Text Label 4050 1950 0    50   ~ 0
+Text Label 4300 1950 2    50   ~ 0
 RF_CSN
 Wire Wire Line
 	7550 1650 7100 1650
@@ -530,20 +476,18 @@ Wire Wire Line
 	7550 1950 7100 1950
 Wire Wire Line
 	7550 1850 7100 1850
-Text Label 7150 1650 0    50   ~ 0
+Text Label 7100 1650 0    50   ~ 0
 RF_MISO
-Text Label 7150 1550 0    50   ~ 0
+Text Label 7100 1550 0    50   ~ 0
 RF_SCLK
-Text Label 7150 1950 0    50   ~ 0
+Text Label 7100 1950 0    50   ~ 0
 RF_CSN
-Text Label 7150 1850 0    50   ~ 0
+Text Label 7100 1850 0    50   ~ 0
 RF_INT
 Wire Wire Line
-	3950 1750 5050 1750
+	4750 1750 4900 1750
 Wire Wire Line
-	5450 1750 5600 1750
-Wire Wire Line
-	5600 1750 5600 1800
+	4900 1750 4900 1800
 $Comp
 L Connector:Conn_01x03_Female J2
 U 1 1 5C9EEF9C
@@ -612,25 +556,15 @@ Text Label 1150 5950 0    50   ~ 0
 TA3
 Text Label 1150 6050 0    50   ~ 0
 TA4
-Wire Wire Line
-	3950 1250 4550 1250
-Wire Wire Line
-	3950 1350 4550 1350
-Wire Wire Line
-	3950 1450 4550 1450
-Wire Wire Line
-	3950 1550 4550 1550
-Wire Wire Line
-	3950 1650 4550 1650
-Text Label 4050 1250 0    50   ~ 0
+Text Label 4300 1250 2    50   ~ 0
 TA2
-Text Label 4050 1350 0    50   ~ 0
+Text Label 4300 1350 2    50   ~ 0
 TA1
-Text Label 4050 1450 0    50   ~ 0
+Text Label 4300 1450 2    50   ~ 0
 TA4
-Text Label 4050 1550 0    50   ~ 0
+Text Label 4300 1550 2    50   ~ 0
 TA3
-Text Label 4050 1650 0    50   ~ 0
+Text Label 4300 1650 2    50   ~ 0
 TA5
 $Comp
 L wago:250-x02 J6
@@ -681,33 +615,19 @@ reichelt Bestellnummern teilweise als property des Bauteils hinterlegt
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5CA1E77A
-P 5250 1750
-F 0 "SW1" H 5250 2035 50  0000 C CNN
-F 1 "SW_Push" H 5250 1944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5250 1950 50  0001 C CNN
-F 3 "~" H 5250 1950 50  0001 C CNN
-F 4 "footprint, Bohrung ok" H 5250 1750 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 5250 1750 50  0001 C CNN "Bestellen"
-F 6 "TASTER 3301" H 5250 1750 50  0001 C CNN "reichelt"
-	1    5250 1750
+P 4550 1750
+F 0 "SW1" H 4550 2035 50  0000 C CNN
+F 1 "SW_Push" H 4550 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4550 1950 50  0001 C CNN
+F 3 "~" H 4550 1950 50  0001 C CNN
+F 4 "TASTER 3301" H 4550 1750 50  0001 C CNN "reichelt"
+	1    4550 1750
 	1    0    0    -1  
 $EndComp
 Text Label 7400 6150 0    50   ~ 0
 M2_L
 Text Label 2850 6750 0    50   ~ 0
 N
-Wire Wire Line
-	1150 950  1450 950 
-Wire Wire Line
-	1450 1000 1450 950 
-Connection ~ 1450 950 
-Wire Wire Line
-	1450 950  1750 950 
-Wire Wire Line
-	1450 1300 1450 1350
-Wire Wire Line
-	1450 1350 1600 1350
-Connection ~ 1600 1350
 $Comp
 L power:+24V #PWR0101
 U 1 1 5CED7D93
@@ -837,6 +757,7 @@ F 0 "K2" H 6680 3996 50  0000 L CNN
 F 1 "G6S-2" H 6680 3905 50  0000 L CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G6S-2" H 6700 3900 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 5850 3950 50  0001 C CNN
+F 4 "G6S-2 24DC" H 6050 3950 50  0001 C CNN "reichelt"
 	1    6050 3950
 	1    0    0    -1  
 $EndComp
@@ -848,6 +769,7 @@ F 0 "K1" H 6630 3046 50  0000 L CNN
 F 1 "G6S-2" H 6630 2955 50  0000 L CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G6S-2" H 6650 2950 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 5800 3000 50  0001 C CNN
+F 4 "G6S-2 24DC" H 6000 3000 50  0001 C CNN "reichelt"
 	1    6000 3000
 	1    0    0    -1  
 $EndComp
@@ -856,11 +778,10 @@ L Device:R R1
 U 1 1 5D5199EB
 P 4750 3200
 F 0 "R1" H 4680 3154 50  0000 R CNN
-F 1 "2k7" H 4680 3245 50  0000 R CNN
+F 1 "7k5" H 4680 3245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4680 3200 50  0001 C CNN
 F 3 "~" H 4750 3200 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 4750 3200 50  0001 C CNN "footprint"
-F 5 "Nein" H 4750 3200 50  0001 C CNN "Bestellen"
+F 4 "1/4W 7,5K" H 4750 3200 50  0001 C CNN "reichelt"
 	1    4750 3200
 	0    1    1    0   
 $EndComp
@@ -906,12 +827,10 @@ L Transistor_BJT:BC337 Q2
 U 1 1 5D5199DF
 P 4950 3400
 F 0 "Q2" V 5186 3400 50  0000 C CNN
-F 1 "BC817" V 5277 3400 50  0000 C CNN
+F 1 "BC337" V 5277 3400 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5150 3325 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4950 3400 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 4950 3400 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 4950 3400 50  0001 C CNN "Bestellen"
-F 6 "RND BC337" V 4950 3400 50  0001 C CNN "reichelt"
+F 4 "RND BC337" V 4950 3400 50  0001 C CNN "reichelt"
 	1    4950 3400
 	0    1    1    0   
 $EndComp
@@ -963,8 +882,7 @@ F 0 "D2" H 5300 3734 50  0000 C CNN
 F 1 "1N4148" H 5300 3825 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 5300 3775 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 3950 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 5300 3950 50  0001 C CNN "footprint"
-F 5 "Nein" H 5300 3950 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 5300 3950 50  0001 C CNN "reichelt"
 	1    5300 3950
 	0    1    1    0   
 $EndComp
@@ -1014,11 +932,10 @@ L Device:R R2
 U 1 1 5C9B22AE
 P 4750 4200
 F 0 "R2" H 4680 4154 50  0000 R CNN
-F 1 "2k7" H 4680 4245 50  0000 R CNN
+F 1 "7k5" H 4680 4245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4680 4200 50  0001 C CNN
 F 3 "~" H 4750 4200 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 4750 4200 50  0001 C CNN "footprint"
-F 5 "Nein" H 4750 4200 50  0001 C CNN "Bestellen"
+F 4 "1/4W 7,5K" H 4750 4200 50  0001 C CNN "reichelt"
 	1    4750 4200
 	0    1    1    0   
 $EndComp
@@ -1031,12 +948,10 @@ L Transistor_BJT:BC337 Q6
 U 1 1 5D756BFD
 P 8150 4600
 F 0 "Q6" V 8386 4600 50  0000 C CNN
-F 1 "BC817" V 8477 4600 50  0000 C CNN
+F 1 "BC337" V 8477 4600 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 8350 4525 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 8150 4600 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 8150 4600 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 8150 4600 50  0001 C CNN "Bestellen"
-F 6 "RND BC337" V 8150 4600 50  0001 C CNN "reichelt"
+F 4 "RND BC337" V 8150 4600 50  0001 C CNN "reichelt"
 	1    8150 4600
 	0    1    1    0   
 $EndComp
@@ -1059,8 +974,7 @@ F 0 "D5" H 8450 2934 50  0000 C CNN
 F 1 "1N4148" H 8450 3025 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8450 2975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8450 3150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8450 3150 50  0001 C CNN "footprint"
-F 5 "Nein" H 8450 3150 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 8450 3150 50  0001 C CNN "reichelt"
 	1    8450 3150
 	0    1    1    0   
 $EndComp
@@ -1083,6 +997,7 @@ F 0 "K4" H 9880 4146 50  0000 L CNN
 F 1 "G6S-2" H 9880 4055 50  0000 L CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G6S-2" H 9900 4050 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 9050 4100 50  0001 C CNN
+F 4 "G6S-2 24DC" H 9250 4100 50  0001 C CNN "reichelt"
 	1    9250 4100
 	1    0    0    -1  
 $EndComp
@@ -1094,6 +1009,7 @@ F 0 "K3" H 9830 3196 50  0000 L CNN
 F 1 "G6S-2" H 9830 3105 50  0000 L CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G6S-2" H 9850 3100 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 9000 3150 50  0001 C CNN
+F 4 "G6S-2 24DC" H 9200 3150 50  0001 C CNN "reichelt"
 	1    9200 3150
 	1    0    0    -1  
 $EndComp
@@ -1102,11 +1018,10 @@ L Device:R R3
 U 1 1 5D756C3D
 P 7950 3350
 F 0 "R3" H 7880 3304 50  0000 R CNN
-F 1 "2k7" H 7880 3395 50  0000 R CNN
+F 1 "7k5" H 7880 3395 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7880 3350 50  0001 C CNN
 F 3 "~" H 7950 3350 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 7950 3350 50  0001 C CNN "footprint"
-F 5 "Nein" H 7950 3350 50  0001 C CNN "Bestellen"
+F 4 "1/4W 7,5K" H 7950 3350 50  0001 C CNN "reichelt"
 	1    7950 3350
 	0    1    1    0   
 $EndComp
@@ -1152,12 +1067,10 @@ L Transistor_BJT:BC337 Q5
 U 1 1 5D756C66
 P 8150 3550
 F 0 "Q5" V 8386 3550 50  0000 C CNN
-F 1 "BC817" V 8477 3550 50  0000 C CNN
+F 1 "BC337" V 8477 3550 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 8350 3475 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 8150 3550 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 8150 3550 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 8150 3550 50  0001 C CNN "Bestellen"
-F 6 "RND BC337" V 8150 3550 50  0001 C CNN "reichelt"
+F 4 "RND BC337" V 8150 3550 50  0001 C CNN "reichelt"
 	1    8150 3550
 	0    1    1    0   
 $EndComp
@@ -1209,8 +1122,7 @@ F 0 "D6" H 8500 3884 50  0000 C CNN
 F 1 "1N4148" H 8500 3975 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8500 3925 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8500 4100 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8500 4100 50  0001 C CNN "footprint"
-F 5 "Nein" H 8500 4100 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 8500 4100 50  0001 C CNN "reichelt"
 	1    8500 4100
 	0    1    1    0   
 $EndComp
@@ -1260,11 +1172,10 @@ L Device:R R6
 U 1 1 5D756CAE
 P 7950 4350
 F 0 "R6" H 7880 4304 50  0000 R CNN
-F 1 "2k7" H 7880 4395 50  0000 R CNN
+F 1 "7k5" H 7880 4395 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7880 4350 50  0001 C CNN
 F 3 "~" H 7950 4350 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 7950 4350 50  0001 C CNN "footprint"
-F 5 "Nein" H 7950 4350 50  0001 C CNN "Bestellen"
+F 4 "1/4W 7,5K" H 7950 4350 50  0001 C CNN "reichelt"
 	1    7950 4350
 	0    1    1    0   
 $EndComp
@@ -1290,17 +1201,15 @@ Text Label 9250 4750 1    50   ~ 0
 M3_A
 Text Label 9650 4750 1    50   ~ 0
 M3_B
-Wire Wire Line
-	3950 1850 4550 1850
-Text Label 4050 1850 0    50   ~ 0
+Text Label 4300 1850 2    50   ~ 0
 TA6
 Wire Wire Line
 	3950 2950 4300 2950
 Wire Wire Line
 	3950 3050 4300 3050
-Text Label 4050 2950 0    50   ~ 0
+Text Label 4300 2950 2    50   ~ 0
 M3_DIR
-Text Label 4050 3050 0    50   ~ 0
+Text Label 4300 3050 2    50   ~ 0
 M3_EN
 $Comp
 L Device:Fuse F1
@@ -1328,48 +1237,19 @@ Wire Wire Line
 	5750 6050 5200 6050
 Text Label 5300 6050 0    50   ~ 0
 L_FUSED
-$Comp
-L Device:C C6
-U 1 1 5DCA12E2
-P 7250 1000
-F 0 "C6" V 7300 900 50  0000 C CNN
-F 1 "100n" V 7400 1000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7288 850 50  0001 C CNN
-F 3 "~" H 7250 1000 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" V 7250 1000 50  0001 C CNN "footprint"
-F 5 "Nein" V 7250 1000 50  0001 C CNN "Bestellen"
-	1    7250 1000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7550 1250 7450 1250
 Wire Wire Line
 	7450 1250 7450 1200
 Wire Wire Line
-	7400 1000 7450 1000
-Connection ~ 7450 1000
-Wire Wire Line
-	7450 1000 7450 900 
-Wire Wire Line
 	7400 1200 7450 1200
-Connection ~ 7450 1200
-Wire Wire Line
-	7450 1200 7450 1000
 Wire Wire Line
 	7550 1350 7050 1350
 Wire Wire Line
-	7050 900  7050 1000
-Wire Wire Line
 	7100 1200 7050 1200
-Connection ~ 7050 1200
 Wire Wire Line
 	7050 1200 7050 1350
-Wire Wire Line
-	7100 1000 7050 1000
-Connection ~ 7050 1000
-Wire Wire Line
-	7050 1000 7050 1200
-Text Label 7150 1450 0    50   ~ 0
+Text Label 7100 1450 0    50   ~ 0
 RF_MOSI
 Wire Wire Line
 	7550 1450 7100 1450
@@ -1469,4 +1349,66 @@ Wire Wire Line
 	2900 5525 2750 5525
 Wire Wire Line
 	2900 5325 2900 5350
+Wire Wire Line
+	1750 950  1150 950 
+Wire Wire Line
+	1150 950  1150 900 
+Connection ~ 1750 950 
+Wire Wire Line
+	1750 1300 1750 1350
+NoConn ~ 2050 1250
+NoConn ~ 2050 2750
+NoConn ~ 2050 2850
+NoConn ~ 3950 950 
+NoConn ~ 3950 1050
+NoConn ~ 3950 3150
+NoConn ~ 3950 3250
+Wire Wire Line
+	4300 2350 3950 2350
+Wire Wire Line
+	4300 2250 3950 2250
+Wire Wire Line
+	4300 2150 3950 2150
+Wire Wire Line
+	4300 1950 3950 1950
+Wire Wire Line
+	4300 1850 3950 1850
+Wire Wire Line
+	4300 1650 3950 1650
+Wire Wire Line
+	4300 1550 3950 1550
+Wire Wire Line
+	4300 1450 3950 1450
+Wire Wire Line
+	4300 1350 3950 1350
+Wire Wire Line
+	4300 1250 3950 1250
+Wire Wire Line
+	4300 1150 3950 1150
+Wire Wire Line
+	3950 1750 4350 1750
+Text Notes 6850 2725 0    50   ~ 0
+Ib = Ic / (hFE/3.3)\nIb = 8.3mA / (100/3.3) = 273uA\nRb = (3.0V - 0.7V) / 273 uA = 8.4kOhm
+$Comp
+L Diode:1N4148 D4
+U 1 1 5C9CCEFA
+P 8450 5250
+F 0 "D4" H 8450 5034 50  0000 C CNN
+F 1 "1N4148" H 8450 5125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8450 5075 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8450 5250 50  0001 C CNN
+F 4 "1N 4148" H 8450 5250 50  0001 C CNN "reichelt"
+	1    8450 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 1025 7450 1200
+Connection ~ 7450 1200
+Wire Wire Line
+	7050 1200 7050 1025
+Connection ~ 7050 1200
+NoConn ~ 7550 1750
+NoConn ~ 8575 1600
+Text Notes 5125 6525 0    50   ~ 0
+Ib = Ic / (hFE/3.3)\nIb = 27mA / (100/3.3) = 891uA\nRb = (3.0V - 0.7V) / 891uA = 2.6kOhm
 $EndSCHEMATC
