@@ -3,5 +3,5 @@
   (lib (name relay)(type KiCad)(uri ${KIPRJMOD}/libraries/finder4061.pretty)(options "")(descr ""))
   (lib (name supply)(type KiCad)(uri ${KIPRJMOD}/libraries/am1s.pretty)(options "")(descr ""))
   (lib (name radio)(type KiCad)(uri ${KIPRJMOD}/libraries/cc1101_module.pretty)(options "")(descr ""))
-  (lib (name wago)(type KiCad)(uri ${KIPRJMOD}/libraries/Wago-P-250.pretty)(options "")(descr ""))
+  (lib (name wago)(type KiCad)(uri ${KIPRJMOD}/libraries/wago_terminals.pretty)(options "")(descr ""))
 )
