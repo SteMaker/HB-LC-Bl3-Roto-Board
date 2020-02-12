@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HB-LC-Bl3-Roto-Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -546,8 +545,6 @@ F 4 "WAGO 250-402" H 925 2200 50  0001 C CNN "reichelt"
 	1    925  2200
 	-1   0    0    1   
 $EndComp
-Text Label 1350 2100 2    50   ~ 0
-M1_A
 Text Notes 4100 7650 0    50   ~ 0
 reichelt Bestellnummern teilweise als property des Bauteils hinterlegt
 $Comp
@@ -590,23 +587,23 @@ $EndComp
 $Comp
 L power:+24V #PWR023
 U 1 1 5D438E4F
-P 1175 1650
-F 0 "#PWR023" H 1175 1500 50  0001 C CNN
-F 1 "+24V" H 1190 1823 50  0000 C CNN
-F 2 "" H 1175 1650 50  0001 C CNN
-F 3 "" H 1175 1650 50  0001 C CNN
-	1    1175 1650
+P 1175 1475
+F 0 "#PWR023" H 1175 1325 50  0001 C CNN
+F 1 "+24V" H 1190 1648 50  0000 C CNN
+F 2 "" H 1175 1475 50  0001 C CNN
+F 3 "" H 1175 1475 50  0001 C CNN
+	1    1175 1475
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 5D4425CD
-P 1175 1475
-F 0 "#PWR022" H 1175 1225 50  0001 C CNN
-F 1 "GND" H 1180 1302 50  0000 C CNN
-F 2 "" H 1175 1475 50  0001 C CNN
-F 3 "" H 1175 1475 50  0001 C CNN
-	1    1175 1475
+P 1175 1650
+F 0 "#PWR022" H 1175 1400 50  0001 C CNN
+F 1 "GND" H 1180 1477 50  0000 C CNN
+F 2 "" H 1175 1650 50  0001 C CNN
+F 3 "" H 1175 1650 50  0001 C CNN
+	1    1175 1650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -648,8 +645,6 @@ F 4 "WAGO 250-402" H 925 2800 50  0001 C CNN "reichelt"
 	1    925  2800
 	-1   0    0    1   
 $EndComp
-Text Label 1350 2875 2    50   ~ 0
-M3_A
 Text Label 3725 7150 2    50   ~ 0
 N
 $Comp
@@ -1065,8 +1060,6 @@ Wire Wire Line
 	9000 3950 9050 3950
 Wire Wire Line
 	8700 3950 8300 3950
-Text Label 1350 2275 2    50   ~ 0
-M1_B
 Text Label 6725 4425 1    50   ~ 0
 M1_B
 Text Label 7125 4425 1    50   ~ 0
@@ -1864,12 +1857,6 @@ F 4 "WAGO 236-403" H 1400 7450 50  0001 C CNN "reichelt"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1075 1475 1175 1475
-Wire Wire Line
-	1075 1650 1175 1650
-Text Label 1350 2700 2    50   ~ 0
-M3_B
-Wire Wire Line
 	6775 2475 6775 2325
 Connection ~ 6775 2325
 Wire Wire Line
@@ -1930,4 +1917,16 @@ F 3 "~" H 6275 7175 50  0001 C CNN
 	1    6275 7175
 	1    0    0    -1  
 $EndComp
+Text Label 1150 2700 0    50   ~ 0
+M3_A
+Text Label 1150 2875 0    50   ~ 0
+M3_B
+Wire Wire Line
+	1075 1475 1175 1475
+Wire Wire Line
+	1175 1650 1075 1650
+Text Label 1150 2100 0    50   ~ 0
+M1_B
+Text Label 1150 2275 0    50   ~ 0
+M1_A
 $EndSCHEMATC
